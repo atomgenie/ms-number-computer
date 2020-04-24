@@ -1,3 +1,7 @@
+const Sentry = require("@sentry/node")
+Sentry.init({
+    dsn: "https://4ae3f33d94384f3d9d1cacf7fd17fd4b@o382902.ingest.sentry.io/5212470",
+})
 const MM = require("ms-manager")
 let config = require(`./config.json`) || {}
 
